@@ -4,6 +4,7 @@ export interface Trip {
   id: string;
   title: string;
   destination: string;
+  cover_image: string;
   start_date: string;
   end_date: string;
   budget: number;
